@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anuhya Shopping Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <h2>Anuhya Shopping Hub</h2>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+    </div>
+</nav>
+
+<h1>Welcome to Anuhya Shopping Hub</h1>
+
+<input type="text" placeholder="Search Products">
+
+<h3>🛒 Cart Items: <span id="cartCount">0</span></h3>
+
+<div class="products">
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&auto=format&fit=crop&q=80" alt="Earbuds">
+        <h2>Wireless Earbuds</h2>
+        <p>₹1499</p>
+        <button onclick="addToCart('Wireless Earbuds',1499,'Wireless Earbuds.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=400&auto=format&fit=crop&q=80" alt="Mouse">
+        <h2>Gaming Mouse</h2>
+        <p>₹899</p>
+        <button onclick="addToCart('Gaming Mouse',899,'Gaming Mouse.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&auto=format&fit=crop&q=80" alt="Keyboard">
+        <h2>Mechanical Keyboard</h2>
+        <p>₹2499</p>
+        <button onclick="addToCart('Mechanical Keyboard',2499,'Mechanical Keyboard.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&auto=format&fit=crop&q=80" alt="Smartphone">
+        <h2>Smartphone</h2>
+        <p>₹14999</p>
+        <button onclick="addToCart('Smartphone',14999,'Smartphone.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&auto=format&fit=crop&q=80" alt="Laptop">
+        <h2>Laptop</h2>
+        <p>₹54999</p>
+        <button onclick="addToCart('Laptop',54999,'Laptop.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400&auto=format&fit=crop&q=80" alt="Smart Watch">
+        <h2>Smart Watch</h2>
+        <p>₹2999</p>
+        <button onclick="addToCart('Smart Watch',2999,'Smart Watch.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+    <div class="product">
+        <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&auto=format&fit=crop&q=80" alt="Speaker">
+        <h2>Bluetooth Speaker</h2>
+        <p>₹1799</p>
+        <button onclick="addToCart('Bluetooth Speaker',1799,'Bluetooth Speaker.jpg')">
+            Add to Cart
+        </button>
+        <button onclick="window.location.href='product.html'">View Details</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Anuhya Shopping Hub | Created by Racha Anuhya</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
